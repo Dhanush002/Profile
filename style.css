@@ -24,6 +24,18 @@ body {
   position: relative;
   z-index: 2;
 }
+.name h1 {
+  color: #070707;
+  text-align: left;
+  margin-left: 70px; /* Adjust the margin-left value as needed */
+  margin-right: 50px;
+}
+.name p{
+  color: #333131;
+  text-align: left;
+  margin-left: 300px; /* Adjust the margin-left value as needed */
+  margin-right: 50px;
+}
 
 #home,
 #portfolio,
@@ -36,14 +48,21 @@ body {
 #home {
   font-size: 36px;
   color: #fff;
-  text-align: left;
+  
   background-color: #070707ee;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 0px;
   padding: 10px;
-  margin-bottom: -120px;
+  margin-bottom: -140px;
   margin-top: -40px;
 }
+#home p {
+  color: #fff;
+  text-align: left;
+  margin-left: 70px; /* Adjust the margin-left value as needed */
+  margin-right: 50px; /* Adjust the margin-right value as needed */
+}
+
 
 #portfolio,
 #contact {
